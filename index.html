@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Startups, Engineering, JavaScript - Joe Pettersson</title>
+
+		<meta name="description" content="Security in the client: how the ecosystem is changing and so should we">
+		<meta name="author" content="Joe Pettersson">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/uit.css" id="theme">
+		<link rel="stylesheet" href="css/zenburn.css">
+	</head>
+
+	<body>
+
+		<!-- <div id="hashtag">#chiweb2015</div> -->
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section id="intro" data-transition="zoom" data-background-transition="zoom">
+					<h1>Building Digital</h1>
+					<h3>Startups, Engineering, JavaScript</h3>
+					<h4>Tuesday the 23rd of March 2015 <a href="https://joe8bit.com/talk/uit-startup/">joe8bit.com/talk/uit-startup/</a></h4>
+				</section>
+
+				<section data-transition="zoom" data-background-transition="zoom" id="who">
+					<h1>Joe Pettersson</h1>
+					<h3><a href="https://twitter.com/Joe8bit">@Joe8Bit</a> | <a href="https://github.com/Joe8Bit">github.com/Joe8Bit</a></h3>
+				</section>
+
+				<section id="raising-money" class="slide-style">
+					<h1>Raising Money</h1>
+				</section>
+
+				<section id="dont" class="slide-style">
+					<h3>Don't raise money, bootstrap as long as you can</h3>
+				</section>
+
+				<section id="not-hard" class="slide-style">
+					<h4>Raising capital is the easiest thing a successful founder will do</h4>
+					<ul>
+						<li>Hiring engineers is harder</li>
+						<li>Building a culture is harder</li>
+						<li>Getting viral growth for a B2C business is harder</li>
+						<li>Selling to enterprises for B2B is harder</li>
+						<li>Growing advertising revenue is harder</li>
+					</ul>
+				</section>
+
+				<section id="fundamentally">
+					<h4>The fundamental problem</h4>
+					<ul>
+						<li>4000 VC fundable companies each year</li>
+						<li>200 funded by 'top tier' VCs</li>
+						<li>15 will someday reach a market cap of $100 million+</li>
+						<li>Those 15 will generate 97% of returns for entire VC sector for that year</li>
+					</ul>
+				</section>
+
+				<section id="outliers" class="slide-style">
+					<h1>Extreme outliers</h1>
+				</section>
+
+				<section id="what-investors-look-for" class="slide-style">
+					<h4>What investors look for</h4>
+					<ul>
+						<li>Great founding team</li>
+						<li>Solid idea</li>
+						<li>In growth sector</li>
+						<li>Solving a <em>real</em> problem</li>
+						<li>Consumer early adoption, metrics matter</li>
+						<li>Working product</li>
+						<li>Understanding of success</li>
+						<li>Distribution and business development - sales!</li>
+					</ul>
+				</section>
+
+				<section id="prepare-your-message" class="slide-style">
+					<h4>Prepare your message</h4>
+					<ul>
+						<li>Good elevator pitch. Tell me in one sentence what you do. Practice it and make it compelling</li>
+						<li>Make your pitch deck sing</li>
+						<li>Exec summary in your pitch deck</li>
+					</ul>
+				</section>
+
+				<section id="founders" class="slide-style">
+					<h4>Founders</h4>
+					<ul>
+						<li>Born leaders, lead by example, 24/7</li>
+						<li>Procrastination is death, decisiveness is king</li>
+						<li>Rifle focused, strong willed by flexible (good listeners)</li>
+						<li>Why did you do this? Does it solve a personal problem?</li>
+						<li>Communication focused</li>
+					</ul>
+				</section>
+
+				<section id="work-on-business" class="slide-style">
+					<blockquote>Almost always better to work hard on your business that it is to work hard on raising capital</blockquote>
+				</section>
+
+				<section id="advisors" class="slide-style">
+					<h2>Advisors are the best or the worst thing to happen to your company</h2>
+				</section>
+
+				<section id="hiring" class="slide-style">
+					<h1>Hiring</h1>
+				</section>
+
+				<section id="know" class="slide-style">
+					<h4>Know who you're looking for</h4>
+					<ul>
+						<li>Skills? Technical skills?</li>
+						<li>Role</li>
+						<li>Responsibilities</li>
+						<li>Personality</li>
+					</ul>
+				</section>
+
+				<section id="when" class="slide-style">
+					<h4>When are you hiring?</h4>
+					<ul>
+						<li>Seed stage?</li>
+						<li>Venture stage?</li>
+						<li>Growth stage?</li>
+					</ul>
+				</section>
+
+				<section id="compensation" class="slide-style">
+					<h4>Compensation</h4>
+					<ul>
+						<li>Salary/equity mix</li>
+						<li>Try to think in absolute $ terms with equity, not relative percentages</li>
+						<li>Being cheap and/or screwing people will backfire</li>
+						<li>Understand the talent market your working in</li>
+						<li>Reassess compensation against the market quarterly</li>
+					</ul>
+				</section>
+
+				<section id="interviewing" class="slide-style">
+					<h4>Interviewing</h4>
+					<ul>
+						<li>Tech interviewing is broken.</li>
+						<li>Puzzles are bullshit</li>
+						<li>Treat people with respect, value their time</li>
+						<li>You need to sell your organisation to the best engineers</li>
+						<li>Open source is great, but don't use it exclusively</li>
+					</ul>
+				</section>
+
+				<section id="people" class="slide-style">
+					<blockquote>The best engineers don't care about tools at a macro level, they solve problems with whatever technology best suits</blockquote>
+				</section>
+
+				<section id="specialisation" class="slide-style">
+					<blockquote>Avoid specialisation as long as it's reasonable to do so</blockquote>
+				</section>
+
+				<section id="engineering" class="slide-style">
+					<h1>Engineering</h1>
+				</section>
+
+				<section id="tools" class="slide-style">
+					<blockquote>Tools should be fit your problems, your problems shouldn't be fit to your tools</blockquote>
+				</section>
+
+				<section id="dogma" class="slide-style">
+					<p>"We build all our [domain] in [technology], so we're going to use [technology] for everything"</p>
+				</section>
+
+				<section id="siloing" class="slide-style">
+					<p>Don't silo your people, their skills or their work. People are motivated by transformational change, give it to them.</p>
+				</section>
+
+				<section id="cost" class="slide-style">
+					<p>Pay money to make things "not my problem". Spend time on your business, concentrate on where your value lies.</p>
+				</section>
+
+				<section id="stack" class="slide-style">
+					<p>Releasing fast and releasing often are key, pick a stack that is conducive to that.</p>
+				</section>
+
+				<section id="testing" class="slide-style">
+					<p>Test everything. Unit, functional and integration testing*</p>
+					<p><small>However, working and in production is better than tested and not.</small></p>
+				</section>
+
+				<section id="analytics" class="slide-style">
+					<p>Analytics lead product development, base decisions on key metrics. Data based product development.</p>
+				</section>
+
+				<section id="licences" class="slide-style">
+					<p>Beware the GPL (et al)</p>
+				</section>
+
+				<section id="getting-hired" class="slide-style" data-background="#cf9430">
+					<h1>Getting hired</h1>
+				</section>
+
+				<section id="reminder" class="slide-style"  data-background="#cf9430">
+					<p>Reminder: technical interviewing is broken</p>
+				</section>
+
+				<section id="interview-processes" class="slide-style"  data-background="#cf9430">
+					<p>Some sample interview processes</p>
+				</section>
+
+				<section id="tech-agnostic" class="slide-style"  data-background="#cf9430">
+					<p>Try to be technology agnostic</p>
+				</section>
+
+				<section id="framework-agnostic" class="slide-style"  data-background="#cf9430">
+					<p>Definitely be framework agnostic</p>
+				</section>
+
+				<section id="open-source-cv" class="slide-style"  data-background="#cf9430">
+					<p>Try to contribute to open-source projects, or create your own</p>
+				</section>
+
+				<section id="attitude-apititude" class="slide-style" data-background="#cf9430">
+					<p>Attitude and aptitude</p>
+				</section>
+
+				<section id="important-javascript" class="slide-style" data-background="#cf9430">
+					<h4>JavaScript skills</h4>
+					<ul>
+						<li>The JS stack/execution model</li>
+						<li>The DOM API</li>
+						<li>Scoping (<code>this</code>, <code>let</code>, <code>bind/call</code>, hoisting, closures etc)</li>
+						<li>Async</li>
+						<li>Performance</li>
+						<li>Types and grammar (primitive types etc)</li>
+						<li>Testing</li>
+					</ul>
+				</section>
+
+				<section id="system-design" class="slide-style" data-background="#cf9430">
+					<p>System design</p>
+					<p><small>Code structure, modularity, dependency injection etc</small></p>
+				</section>
+
+				<section id="css" class="slide-style" data-background="#cf9430">
+					<p>CSS. Ugh.</p>
+					<p><small>Don't bother, use SASS/LESS/Stylus.</small></p>
+				</section>
+
+				<section id="frameworks" class="slide-style" data-background="#cf9430">
+					<p>Framework's</p>
+					<p><small>Angular, Ember, React etc</small></p>
+				</section>
+
+				<section id="algo" class="slide-style" data-background="#cf9430">
+					<p>Algorithm's, "Big-O" complexity etc</p>
+				</section>
+
+				<section id="dont-know" class="slide-style" data-background="#cf9430">
+					<p>Never be afraid to say you don't know</p>
+				</section>
+
+				<section id="value" class="slide-style" data-background="#cf9430">
+					<p>Know your value, they want you more than you want them</p>
+				</section>
+
+				<section id="sourcing" class="slide-style" data-background="#cf9430">
+					<h4>Talent sourcing</h4>
+					<ul>
+						<li>25% internal personal recommendations</li>
+						<li>10% direct channels</li>
+						<li>65% third-party referrals</li>
+					</ul>
+				</section>
+
+				<section id="angular" class="slide-style" data-background="#cf9430">
+					<h1>Angular</h1>
+				</section>
+
+				<section id="angular" class="slide-style" data-background="#cf9430">
+					<p>It's core value is massive for startups</p>
+				</section>
+
+				<section id="two-way" class="slide-style" data-background="#cf9430">
+					<p>You probably don't need two-way binds</p>
+					<p><small>Use <code>{{:: foo}}</code> expressions instead</small></p>
+				</section>
+
+				<section id="digest-loop" class="slide-style" data-background="#cf9430">
+					<p>The digest loop will eventually bite you on the ass</p>
+				</section>
+
+				<section id="isloate-scope" class="slide-style" data-background="#cf9430">
+					<p>Use an isolate scope for element directives. Share scope for attribute directives</p>
+					<p><small>Use element directives when content is injected, else use attribute directives</small></p>
+				</section>
+
+				<section id="routing" class="slide-style" data-background="#cf9430">
+					<p>Use UI-Router. Routes are state, embrace a router that follows that representation</p>
+					<p><small>While you're at it, use <code>controllerAs</code> when referencing scope</small></p>
+				</section>
+
+				<section id="resolvers" class="slide-style" data-background="#cf9430">
+					<p>Use resolvers</p>
+					<p><small>View is rendered once, user doesn't see flash, makes testing much easier</small></p>
+				</section>
+
+				<section id="resolvers-example" class="slide-style" data-background="#cf9430">
+					<pre><code>// Recommended
+$stateProvider.state('customers.show', {
+  url: '/customers/:id',
+  template: template,
+  controller: 'CustomersShowController',
+  controllerAs: 'ctrl',
+  resolve: {
+    customer: [
+      'Customers',
+      '$stateParams',
+      function customerResolver(Customers, $stateParams) {
+        return Customers.findOne({
+          params: { id: $stateParams.id }
+        });
+      }
+    ]
+  }
+});
+
+// Avoid
+// Note: Controller written inline for the example
+$stateProvider.state('customers.show', {
+  url: '/customers/:id',
+  template: template,
+  controllerAs: 'ctrl',
+  controller: [
+    'Customers',
+    '$stateParams',
+    function CustomersShowController(Customers, $stateParams) {
+      var ctrl = this;
+      Customers.findOne({
+        params: { id: $stateParams.id }
+      }).then(function(customers) {
+        ctrl.customers = customers;
+      });
+    }
+  ]
+});</code></pre>
+				</section>
+
+				<section id="inject-data" class="slide-style" data-background="#cf9430">
+					<p>Inject ready data instead of loading it in the controller.</p>
+				</section>
+
+				<section id="inject-data-example" class="slide-style" data-background="#cf9430">
+					<pre><code>// Recommended
+angular.module('customersShowControllerModule', [])
+  .controller('CustomersShowController', [
+    'customer', 'payments', 'mandates',
+    function CustomersShowController(customer, payments, mandates){
+      var ctrl = this;
+
+      _.extend(ctrl, {
+        customer: customer,
+        payments: payments,
+        mandates: mandates
+      });
+    }
+  ]);
+
+// Avoid
+angular.module('customersShowControllerModule', [])
+  .controller('CustomersShowController', [
+    'Customers', 'Payments', 'Mandates', '$stateParams',
+    function CustomersShowController(Customers, Payments, Mandates, $stateParams){
+      var ctrl = this;
+
+      Customers.findOne({
+        params: { id: $stateParams.id }
+      }).then(function(customers) {
+        ctrl.customers = customers;
+      });
+
+      Payments.findAll().then(function(payments) {
+        ctrl.payments = payments;
+      });
+
+      Mandates.findAll().then(function(mandates) {
+        ctrl.mandates = mandates;
+      });
+    }
+  ]);
+					</code></pre>
+				</section>
+
+				<section id="logic" class="slide-style" data-background="#cf9430">
+					<p>Store presentation logic in controllers and business logic in services</p>
+				</section>
+
+				<section id="dom-manip" class="slide-style" data-background="#cf9430">
+					<p>Don’t manipulate DOM in your controllers, this will make them harder to test. Use directives instead.</p>
+				</section>
+
+				<section id="jquery" class="slide-style" data-background="#cf9430">
+					<p>Do not use jQuery selectors</p>
+				</section>
+
+				<section id="tear-down" class="slide-style" data-background="#cf9430">
+					<p>Tear down your directives</p>
+					<p><small>Subscribe to <code>$scope.$on('$destroy', ...)</code> to get rid of any event listeners or DOM nodes created outside the directive element</small></p>
+				</section>
+
+				<section id="tear-down-example" class="slide-style" data-background="#cf9430">
+					<pre><code>angular.module('adminExpandComponentModule', [])
+  .directive('adminExpand', [
+    '$window',
+    function adminExpand($window) {
+      return {
+        restrict: 'A',
+        scope: {},
+        link: function adminExpandLink(scope, element) {
+          function expand() {
+            element.addClass('is-expanded');
+          }
+
+          $window.document.addEventListener('click', expand);
+
+          scope.$on('$destroy', function onAdminExpandDestroy() {
+            $window.document.removeEventListener('click', expand);
+          });
+        }
+      };
+    }
+  ]);
+</code></pre>
+				</section>
+
+				<section id="globals" class="slide-style" data-background="#cf9430">
+					<p>Don't directly reference globals</p>
+					<p><small>That's what providers are for</small></p>
+				</section>
+
+				<section id="globals" class="slide-style" data-background="#cf9430">
+					<p>Selenium is crap, so it can make protractor E2E test's flaky</p>
+				</section>
+
+				<section id="angular-2" class="slide-style" data-background="#cf9430">
+					<p>Move towards Angular 2 sooner rather than later</p>
+					<p><small>ES6 modules, transpilation et al</small></p>
+				</section>
+
+				<section id="questions" class="slide-style">
+					<h1>Questions?</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script src="//use.typekit.net/jii7zso.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				overview: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+				transitionSpeed: 'slow',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
